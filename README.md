@@ -20,6 +20,9 @@
                             .......   ...'..    c'....
 ```
 
+[![Clojars Project](https://img.shields.io/clojars/v/ribbit.svg)](https://clojars.org/ribbit)
+[![Build Status](https://travis-ci.org/clibc/clojure-RIBBIT.svg?branch=master)](https://travis-ci.org/clibc/clojure-RIBBIT)
+
 A Clojure RIBBIT client and decoding library. See [the definition here](http://frog.tips/api/1/).
 
 ## Quick start
@@ -34,5 +37,5 @@ A Clojure RIBBIT client and decoding library. See [the definition here](http://f
 (ribbit.client/tip 42)
 
 ;; Get a whole bunch of tips
-(ribbit.client./croak)
+(ribbit.client/croak)
 ```
